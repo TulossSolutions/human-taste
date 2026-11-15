@@ -1,0 +1,11 @@
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.agents/
+.claude/
+.cursor/
+.codex/
+.env
+.env.*
+!.env.example

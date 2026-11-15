@@ -1,0 +1,4 @@
+interface:
+  display_name: "Human Taste"
+  short_description: "Collaborative art direction for distinctive websites"
+  default_prompt: "Use $human-taste to guide a creative interview, present a concrete design brief for approval, and build my website from the approved direction."

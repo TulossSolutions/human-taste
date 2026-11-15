@@ -1,0 +1,7 @@
+{
+  "package.json": "a88eaa8d0efebbbf63ff5b4c520e0340781b2710f120555c108d1e9acf5b41f2",
+  "package-lock.json": "072f78dca699568ceae133c26ce0d3ba020de89c0ead65e7ce28b2bea558797f",
+  "src/data.js": "96f6247c99d033bc8edf0aa717c0db0667fd885b6eb6da89c60720ce56766d5e",
+  "public/care.html": "2a5309cbe05ca1ab9fdea5f3451ca32b1e80a984cfa067a41fb4ff3a3ab3c044",
+  "tests/catalog.test.js": "349b38d4b0b06b39d3556d0e7c6f61abc5923899db5bf5ea738c5f1552383360"
+}

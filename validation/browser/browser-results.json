@@ -1,0 +1,211 @@
+{
+  "browser": "152.0.7977.83",
+  "sites": [
+    {
+      "name": "fieldwork",
+      "title": "Fieldwork — An illustrative walking guide",
+      "url": "http://127.0.0.1:8765",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+            "nodes": 4
+          }
+        ],
+        "passes": 25
+      }
+    },
+    {
+      "name": "serein",
+      "title": "Serein — ceramic objects",
+      "url": "http://127.0.0.1:8766",
+      "accessibility": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 21
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "serein: preserved package.json",
+      "status": "passed",
+      "detail": "SHA-256 matches baseline"
+    },
+    {
+      "name": "serein: preserved package-lock.json",
+      "status": "passed",
+      "detail": "SHA-256 matches baseline"
+    },
+    {
+      "name": "serein: preserved src/data.js",
+      "status": "passed",
+      "detail": "SHA-256 matches baseline"
+    },
+    {
+      "name": "serein: preserved public/care.html",
+      "status": "passed",
+      "detail": "SHA-256 matches baseline"
+    },
+    {
+      "name": "serein: preserved tests/catalog.test.js",
+      "status": "passed",
+      "detail": "SHA-256 matches baseline"
+    },
+    {
+      "name": "fieldwork: page loads",
+      "status": "passed",
+      "detail": "Fieldwork — An illustrative walking guide"
+    },
+    {
+      "name": "fieldwork: no horizontal overflow at 1440px",
+      "status": "passed"
+    },
+    {
+      "name": "fieldwork: no horizontal overflow at 768px",
+      "status": "passed"
+    },
+    {
+      "name": "fieldwork: no horizontal overflow at 390px",
+      "status": "passed"
+    },
+    {
+      "name": "fieldwork: no horizontal overflow at 320px",
+      "status": "passed"
+    },
+    {
+      "name": "fieldwork: automated WCAG checks",
+      "status": "passed",
+      "detail": "25 passing rules; 1 rules require manual review"
+    },
+    {
+      "name": "fieldwork: initial keyboard focus is visible",
+      "status": "passed",
+      "detail": "Skip to content"
+    },
+    {
+      "name": "fieldwork: reduced-motion preference keeps opening content visible",
+      "status": "passed"
+    },
+    {
+      "name": "serein: page loads",
+      "status": "passed",
+      "detail": "Serein — ceramic objects"
+    },
+    {
+      "name": "serein: no horizontal overflow at 1440px",
+      "status": "passed"
+    },
+    {
+      "name": "serein: no horizontal overflow at 768px",
+      "status": "passed"
+    },
+    {
+      "name": "serein: no horizontal overflow at 390px",
+      "status": "passed"
+    },
+    {
+      "name": "serein: no horizontal overflow at 320px",
+      "status": "passed"
+    },
+    {
+      "name": "serein: automated WCAG checks",
+      "status": "passed",
+      "detail": "21 passing rules; 0 rules require manual review"
+    },
+    {
+      "name": "serein: initial keyboard focus is visible",
+      "status": "passed",
+      "detail": "SEREIN"
+    },
+    {
+      "name": "serein: reduced-motion preference keeps opening content visible",
+      "status": "passed"
+    },
+    {
+      "name": "fieldwork: SVG number contrast follow-up",
+      "status": "passed",
+      "detail": "6.87:1"
+    },
+    {
+      "name": "fieldwork: decorative footer arrow contrast follow-up",
+      "status": "passed",
+      "detail": "11.20:1"
+    },
+    {
+      "name": "fieldwork: easy effort filter returns two routes and announces count",
+      "status": "passed"
+    },
+    {
+      "name": "fieldwork: native radio keyboard selection returns steep route",
+      "status": "passed"
+    },
+    {
+      "name": "fieldwork: route disclosures work by keyboard and allow multiple open sheets",
+      "status": "passed"
+    },
+    {
+      "name": "fieldwork: filtering and native disclosures remain usable at mobile width",
+      "status": "passed"
+    },
+    {
+      "name": "fieldwork: narrow footer label change preserves top-link destination",
+      "status": "passed"
+    },
+    {
+      "name": "fieldwork: without JavaScript all content and native route disclosures work",
+      "status": "passed"
+    },
+    {
+      "name": "serein: retained collection filters return 3 / 2 / 1 objects",
+      "status": "passed"
+    },
+    {
+      "name": "serein: existing required email and email-format validation work",
+      "status": "passed"
+    },
+    {
+      "name": "serein: inquiry has honest browser-local success feedback",
+      "status": "passed"
+    },
+    {
+      "name": "serein: open inquiry dialog passes automated WCAG rules",
+      "status": "passed"
+    },
+    {
+      "name": "serein: Escape closes inquiry and restores trigger focus",
+      "status": "passed"
+    },
+    {
+      "name": "serein: reopening resets success state and explicit close works",
+      "status": "passed"
+    },
+    {
+      "name": "serein: collection selection and inquiry work at mobile width",
+      "status": "passed"
+    },
+    {
+      "name": "serein: existing care route and return navigation remain working",
+      "status": "passed"
+    },
+    {
+      "name": "fieldwork: no uncaught browser errors or failed HTTP responses",
+      "status": "passed"
+    },
+    {
+      "name": "serein: no uncaught browser errors or failed HTTP responses",
+      "status": "passed"
+    }
+  ],
+  "manualContrastFollowup": {
+    "markerText": "rgb(24, 56, 45)",
+    "markerBackground": "rgb(228, 185, 50)",
+    "arrow": "rgb(24, 56, 45)",
+    "paper": "rgb(243, 240, 228)",
+    "markerContrast": 6.870701903793915,
+    "arrowContrast": 11.200233379825717,
+    "note": "Background associations confirmed by source and rendered visual inspection; axe incomplete results retained."
+  }
+}

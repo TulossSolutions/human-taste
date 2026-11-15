@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Fieldwork is an illustrative walking-club demo. Compare three fictional route sketches. Not real walking advice.">
+  <title>Fieldwork — An illustrative walking guide</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Fieldwork, back to top">
+        <svg viewBox="0 0 28 32" width="28" height="32" fill="none" aria-hidden="true">
+          <path d="M14 29V7M14 19C5 19 3 13 4 7C11 7 14 12 14 19ZM14 13C14 6 18 3 25 3C25 10 21 14 14 13Z" stroke="currentColor" stroke-width="1.7"/>
+        </svg>
+        Fieldwork<span class="wordmark-dot" aria-hidden="true">.</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#walks">Walks</a>
+        <a href="#demo-note">Demo note</a>
+      </nav>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <section class="opening" aria-labelledby="opening-title">
+        <div class="opening-copy">
+          <p class="eyebrow">An illustrative walking club <span aria-hidden="true">/</span> Lyon</p>
+          <h1 id="opening-title">A small field guide to time on foot.</h1>
+          <p class="opening-description">Compare three fictional walks by distance, time and effort.</p>
+          <p class="demo-warning"><span class="marker" aria-hidden="true"></span>Illustrative demo — not real walking advice.</p>
+          <a class="text-link explore-link" href="#walks">Explore the walks <span aria-hidden="true">↘</span></a>
+        </div>
+        <figure class="opening-study">
+          <div class="study-label"><span>Field notes</span><span>Study 01—03</span></div>
+          <svg class="study-drawing" viewBox="0 0 480 430" width="480" height="430" fill="none" aria-hidden="true">
+            <g class="contours" stroke-width="1">
+              <path d="M8 89C55 26 125 29 166 70S214 131 276 99S385 39 470 81"/>
+              <path d="M4 111C48 55 112 47 151 89S214 157 280 123S388 67 477 105"/>
+              <path d="M5 135C44 82 103 73 140 111S211 183 289 150S399 94 476 132"/>
+              <path d="M2 161C36 117 94 98 133 135S208 211 301 178S417 133 478 160"/>
+              <path d="M0 187C35 154 78 122 121 158S206 240 313 206S428 161 480 188"/>
+              <path d="M0 214C40 186 71 151 113 185S209 269 322 235S431 189 480 219"/>
+              <path d="M1 241C49 216 69 180 109 211S215 297 336 262S439 225 479 245"/>
+              <path d="M1 270C52 246 69 211 108 239S216 323 344 289S449 250 479 275"/>
+              <path d="M0 300C54 273 76 241 115 267S226 350 354 317S443 281 478 305"/>
+              <path d="M2 329C64 298 86 268 125 295S239 379 367 345S447 312 479 336"/>
+              <path d="M5 358C71 329 99 298 137 326S257 405 379 374S449 345 477 365"/>
+            </g>
+            <path class="study-water" d="M111 31C45 99 161 166 104 220S56 314 132 404" stroke-width="17"/>
+            <path class="study-water-edge" d="M111 31C45 99 161 166 104 220S56 314 132 404" stroke-width="1.2" stroke-dasharray="2 6"/>
+            <g stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M153 290C107 284 145 244 155 215S145 162 172 142S237 148 235 188S207 254 202 275S179 301 153 290Z"/>
+              <path d="M245 105L277 105V90H291V75H305V60H319V45H333L363 74L352 112L310 145"/>
+              <path d="M310 145L280 147L262 130" stroke-dasharray="2 6"/>
+              <path d="M302 259L394 248L411 322L327 342L302 259Z"/>
+              <path d="M331 271L335 292M345 268L349 289M359 265L363 286M373 262L377 283" stroke-width="1.2"/>
+            </g>
+            <g class="sketch-point">
+              <circle cx="153" cy="290" r="15"/><circle cx="245" cy="105" r="15"/><circle cx="302" cy="259" r="15"/>
+            </g>
+            <g class="sketch-number" text-anchor="middle">
+              <text x="153" y="294">01</text><text x="245" y="109">02</text><text x="302" y="263">03</text>
+            </g>
+          </svg>
+          <figcaption><span class="caption-rule" aria-hidden="true"></span>An imagined route study.<br>No real geography.</figcaption>
+        </figure>
+      </section>
+
+      <section class="walks" id="walks" aria-labelledby="walks-title">
+        <div class="index-heading">
+          <div><p class="eyebrow">The walk index <span aria-hidden="true">/</span> 01—03</p><h2 id="walks-title">Choose a walk</h2></div>
+          <p class="index-note">Three sketches.<br>A little room to wander.</p>
+        </div>
+        <div class="index-toolbar">
+          <form class="filter-form" id="effort-filter" hidden>
+            <fieldset>
+              <legend>Filter by effort</legend>
+              <div class="filter-options">
+                <label><input class="visually-hidden" type="radio" name="effort" value="all" checked><span>All</span></label>
+                <label><input class="visually-hidden" type="radio" name="effort" value="easy"><span>Easy</span></label>
+                <label><input class="visually-hidden" type="radio" name="effort" value="steep"><span>Steep</span></label>
+              </div>
+            </fieldset>
+          </form>
+          <p class="filter-fallback" id="filter-fallback">All three walks are shown. Effort filtering is available when JavaScript is enabled.</p>
+          <p class="result-count" id="result-count" role="status" aria-live="polite" aria-atomic="true">3 walks shown · all efforts</p>
+        </div>
+
+        <div class="walk-list">
+          <article class="walk-entry" id="river-loop" data-effort="easy" aria-labelledby="river-title">
+            <span class="route-number" aria-hidden="true">01</span>
+            <div class="route-intro"><h3 id="river-title">River Loop</h3><p>A fictional riverside circuit, drawn around a broad water bend. An easy route sketch that returns to its starting mark.</p></div>
+            <dl class="route-metrics"><div><dt>Distance</dt><dd>4 <span>km</span></dd></div><div><dt>Time</dt><dd>70 <span>minutes</span></dd></div><div><dt>Effort</dt><dd>Easy</dd></div></dl>
+            <details class="route-details">
+              <summary><svg class="disclosure-icon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M4 6L8 10L12 6" fill="none" stroke="currentColor" stroke-width="1.5"/></svg><span class="when-closed">Read route</span><span class="when-open">Close route</span><span class="visually-hidden">: River Loop</span></summary>
+              <div class="route-sheet">
+                <figure class="route-sketch">
+                  <svg viewBox="0 0 420 265" width="420" height="265" role="img" aria-labelledby="river-sketch-title river-sketch-desc">
+                    <title id="river-sketch-title">River Loop — fictional route sketch</title><desc id="river-sketch-desc">An invented loop with numbered water-bend, riverside-line and return-arc motifs. No real geography.</desc>
+                    <g class="contours" fill="none" stroke-width="1"><path d="M15 75C100 10 180 26 245 64S353 101 410 55"/><path d="M10 98C104 35 179 51 240 88S349 126 415 80"/><path d="M10 199C76 158 119 180 186 208S326 256 412 210"/><path d="M12 222C75 182 124 205 184 229S332 276 414 235"/></g>
+                    <path class="study-water" d="M74 15C27 63 145 94 96 150S70 224 101 257" fill="none" stroke-width="17"/>
+                    <path d="M144 209C92 200 140 151 146 120S139 62 187 53S278 74 276 117S241 190 215 208S167 225 144 209Z" class="route-line"/>
+                    <g class="sketch-point"><circle cx="167" cy="59" r="13"/><circle cx="269" cy="144" r="13"/><circle cx="144" cy="209" r="13"/></g>
+                    <g class="sketch-number" text-anchor="middle"><text x="167" y="63">1</text><text x="269" y="148">2</text><text x="144" y="213">3</text></g>
+                  </svg>
+                  <figcaption>Fictional route sketch · not to scale</figcaption>
+                </figure>
+                <div class="highlight-notes"><h4>Route highlights</h4><ol><li><strong>Water bend</strong><p>The opening curve of this imagined loop.</p></li><li><strong>Riverside line</strong><p>A long, simple stretch in the drawing.</p></li><li><strong>Return arc</strong><p>The sketch closes back on its starting mark.</p></li></ol></div>
+              </div>
+            </details>
+          </article>
+
+          <article class="walk-entry" id="hillside-steps" data-effort="steep" aria-labelledby="hillside-title">
+            <span class="route-number" aria-hidden="true">02</span>
+            <div class="route-intro"><h3 id="hillside-title">Hillside Steps</h3><p>A fictional route shaped by a steep staircase and an upper crossing. The steeper option in this three-walk collection.</p></div>
+            <dl class="route-metrics"><div><dt>Distance</dt><dd>3 <span>km</span></dd></div><div><dt>Time</dt><dd>65 <span>minutes</span></dd></div><div><dt>Effort</dt><dd>Steep</dd></div></dl>
+            <details class="route-details">
+              <summary><svg class="disclosure-icon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M4 6L8 10L12 6" fill="none" stroke="currentColor" stroke-width="1.5"/></svg><span class="when-closed">Read route</span><span class="when-open">Close route</span><span class="visually-hidden">: Hillside Steps</span></summary>
+              <div class="route-sheet">
+                <figure class="route-sketch">
+                  <svg viewBox="0 0 420 265" width="420" height="265" role="img" aria-labelledby="hillside-sketch-title hillside-sketch-desc">
+                    <title id="hillside-sketch-title">Hillside Steps — fictional route sketch</title><desc id="hillside-sketch-desc">An invented line with numbered step-sequence, upper-crossing and final-bend motifs. No real geography.</desc>
+                    <g class="contours" fill="none" stroke-width="1"><path d="M15 173C93 154 91 57 178 35S335 44 402 18"/><path d="M15 197C112 179 111 80 188 60S337 69 408 44"/><path d="M15 221C137 204 128 103 201 85S335 93 411 69"/><path d="M15 245C151 231 147 132 213 112S339 117 412 94"/></g>
+                    <path class="route-line" d="M81 206L116 206V186H136V166H156V146H176V126H196V106H216L282 71L327 103L306 173L256 197L215 183"/>
+                    <path class="route-line route-line-dashed" d="M215 183L166 214L81 206"/>
+                    <g class="sketch-point"><circle cx="156" cy="146" r="13"/><circle cx="282" cy="71" r="13"/><circle cx="256" cy="197" r="13"/></g>
+                    <g class="sketch-number" text-anchor="middle"><text x="156" y="150">1</text><text x="282" y="75">2</text><text x="256" y="201">3</text></g>
+                  </svg>
+                  <figcaption>Fictional route sketch · not to scale</figcaption>
+                </figure>
+                <div class="highlight-notes"><h4>Route highlights</h4><ol><li><strong>Step sequence</strong><p>Close-spaced marks suggest the climb.</p></li><li><strong>Upper crossing</strong><p>A linking line connects the upper portion of the sketch.</p></li><li><strong>Final bend</strong><p>A curve completes the illustrative route.</p></li></ol></div>
+              </div>
+            </details>
+          </article>
+
+          <article class="walk-entry" id="market-morning" data-effort="easy" aria-labelledby="market-title">
+            <span class="route-number" aria-hidden="true">03</span>
+            <div class="route-intro"><h3 id="market-title">Market Morning</h3><p>A fictional short circuit around an imagined market square. The easy, 40-minute entry in this three-walk collection.</p></div>
+            <dl class="route-metrics"><div><dt>Distance</dt><dd>2 <span>km</span></dd></div><div><dt>Time</dt><dd>40 <span>minutes</span></dd></div><div><dt>Effort</dt><dd>Easy</dd></div></dl>
+            <details class="route-details">
+              <summary><svg class="disclosure-icon" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M4 6L8 10L12 6" fill="none" stroke="currentColor" stroke-width="1.5"/></svg><span class="when-closed">Read route</span><span class="when-open">Close route</span><span class="visually-hidden">: Market Morning</span></summary>
+              <div class="route-sheet">
+                <figure class="route-sketch">
+                  <svg viewBox="0 0 420 265" width="420" height="265" role="img" aria-labelledby="market-sketch-title market-sketch-desc">
+                    <title id="market-sketch-title">Market Morning — fictional route sketch</title><desc id="market-sketch-desc">An invented square with numbered square-edge, stall-row and return-corner motifs. No real geography.</desc>
+                    <g class="contours" fill="none" stroke-width="1"><path d="M17 31L104 15L128 256M43 27L128 12L152 253M315 11L350 250M340 8L375 247M13 229L409 193"/></g>
+                    <path class="route-line" d="M146 70L292 53L314 187L166 208L146 70Z"/>
+                    <g class="market-stalls" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M180 89L195 87L198 111L183 113ZM207 85L222 83L225 107L210 109ZM234 81L249 79L252 103L237 105ZM261 77L276 75L279 99L264 101Z"/></g>
+                    <g class="sketch-point"><circle cx="152" cy="114" r="13"/><circle cx="231" cy="82" r="13"/><circle cx="314" cy="187" r="13"/></g>
+                    <g class="sketch-number" text-anchor="middle"><text x="152" y="118">1</text><text x="231" y="86">2</text><text x="314" y="191">3</text></g>
+                  </svg>
+                  <figcaption>Fictional route sketch · not to scale</figcaption>
+                </figure>
+                <div class="highlight-notes"><h4>Route highlights</h4><ol><li><strong>Square edge</strong><p>The drawing follows one side of an invented square.</p></li><li><strong>Stall row</strong><p>A row of small marks suggests a market.</p></li><li><strong>Return corner</strong><p>The sketch turns back toward its starting mark.</p></li></ol></div>
+              </div>
+            </details>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="demo-note" aria-labelledby="demo-title">
+      <div class="footer-heading"><span class="marker" aria-hidden="true"></span><h2 id="demo-title">A note on this field guide</h2></div>
+      <p>Fieldwork is an illustrative website for a fictional walking club. Walk names, distances, times, effort levels and route sketches are demo content. They do not describe real routes in Lyon and must not be used for navigation or walking advice.</p>
+      <a class="text-link" href="#top">Return to top <span aria-hidden="true">↑</span></a>
+    </footer>
+  </div>
+</body>
+</html>
