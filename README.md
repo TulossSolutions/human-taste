@@ -27,6 +27,10 @@ Bring an existing brand system or approved design if you have one. The agent pre
 
 You can say **“Choose for me”** or **“Surprise me,”** skip a creative question, or revisit a decision. Delegation still ends with a brief you can review. The skill does not promise a measurable “less AI-generated” score.
 
+With **“Surprise me,”** the agent first asks what kind of surprise fits your project: for example **bold and expressive**, **classic and refined**, **playful and unexpected**, or **quiet and minimal**. It explains the design consequences and adapts the shortlist to the question tool's limits, with custom answers and **“True surprise — choose everything”** available. If you already supplied a preference, it uses that answer.
+
+Choose **true surprise** to delegate every remaining creative decision: the overall concept, typography, colors, sections, imagery approach, draft copy, motion, interactions, and mobile composition. The agent chooses one coherent direction and an appropriate technical approach within your constraints, without further aesthetic questions or a section-by-section questionnaire. You can request this directly: **“Surprise me completely; choose everything.”** It asks only about essential missing facts, then presents one complete brief for your approval before building. Existing brand rules, factual accuracy, scope, and publication permissions still apply.
+
 ## Check your technology
 
 Human Taste provides a framework-agnostic design and implementation workflow. It does not bundle framework adapters, starter projects, or a fixed dependency list. The technologies below can be used when they fit the project and your agent has the necessary tools and access. A listing is not a claim that every framework or version has been tested.

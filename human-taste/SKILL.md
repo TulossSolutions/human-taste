@@ -45,7 +45,28 @@ Ask in small rounds, usually one to three related questions. Adapt each round to
 - Allow custom answers and delegation within the tool's constraints. Use the tool's built-in free-text facility when present; otherwise invite a custom reply in text.
 - Offer "Choose for me" and "Surprise me" where option limits allow. Otherwise establish them as interview-wide modes or let the user say either phrase in a reply; do not crowd out meaningful design options.
 
-"Choose for me" delegates judgment for that decision. "Surprise me" delegates a coherent, unexpected proposal within known constraints. Neither delegates facts or waives final brief approval. Random exploration selects a coordinated direction, not unrelated fonts, colors, and layouts.
+"Choose for me" delegates judgment for that decision. "Surprise me" delegates a coherent, unexpected proposal within known constraints, after establishing the style bounds below. Neither delegates facts or waives final brief approval. Random exploration selects a coordinated direction, not unrelated fonts, colors, and layouts.
+
+### Set the bounds of "Surprise me"
+
+When the user chooses "Surprise me" for an unresolved overall direction, first ask one short question: **"What kind of surprise would feel right for this project?"** Reuse a style preference already supplied instead of asking again. If the user explicitly requests a true/full surprise, "choose everything," or "no more creative questions," go directly to the fully delegated path below. "Surprise me" by itself does not answer the style question.
+
+Tailor the choices to the audience and project. Use concrete consequences, with these as examples rather than fixed presets:
+
+| Style family | What the choice could mean |
+| --- | --- |
+| **Bold and expressive** | Oversized type, strong contrast, and an assertive composition; prioritize a memorable first impression while keeping content readable. |
+| **Classic and refined** | Familiar proportions, measured spacing, and a restrained palette; explore an unexpected detail within an established visual language. |
+| **Playful and unexpected** | Lighter copy, characterful illustration or shapes, and varied composition when appropriate; keep navigation and interactions predictable. |
+| **Quiet and minimal** | Fewer visual elements, a deliberate type hierarchy, and generous space; put the surprise in an unusual composition or content treatment. |
+
+Respect the live question tool's option limit: offer a project-specific shortlist, not necessarily all four families. With a three-option limit, for example, offer two relevant families and **"True surprise — choose everything."** Explain that this last option delegates all remaining creative decisions, not just the style family. Allow a custom answer through the supported free-text mechanism or a text reply. Do not add extra rounds merely to enumerate every family. Use numbered choices when clickable tools are unavailable, and wait for an actual answer before making the dependent proposal.
+
+Record the selected family, custom preference, or explicit full delegation, then propose a coordinated direction with specifics and rationale. A family is a boundary, not a complete brief: "classic" does not settle the actual typography, palette, imagery, or page composition. Delegation does not override brand rules, accessibility, facts, scope, or final brief approval.
+
+**True surprise — fully delegated:** choose one coherent concept and all remaining creative decisions: style family, typography, palette, page/section composition and order, imagery approach, draft copy, motion, interactions, and responsive treatment. Recommend the technical approach within the known project constraints too. Do not ask further aesthetic questions, require a choice among competing directions, or run the section interview as a questionnaire. Resolve those sections internally and record the reasons in the brief. Ask only for essential missing facts or constraints that cannot responsibly be inferred; never invent factual claims or treat delegation as permission for unrelated features, purchases, services, migrations, or publication. Present one complete, reviewable brief and wait for explicit approval before implementation. Accept requested amendments without reopening settled choices unnecessarily.
+
+For a surprise within an individual section or a smaller design decision, preserve the settled global direction and ask only if a material style preference is still unresolved. Do not restart the global interview for an already approved design or small fix.
 
 A preselected option, acknowledgment from a tool, cancellation, silence, or elapsed time is not an answer. An asynchronous question remains pending until an actual reply arrives; continue only independent research or context gathering. Do not continue dependent decisions by assuming the recommendation was accepted.
 
@@ -67,7 +88,7 @@ Ask how the user wants to participate: guided decisions, detailed collaboration,
 
 ## 2. Establish a coherent direction
 
-Before discussing individual sections, present a small set of directions tailored to the project. For each, describe the intended impression and audience fit; typography character and hierarchy; palette roles and contrast; composition, density, spacing, and rhythm; imagery treatment; copy voice with realistic example phrasing; motion character or its absence; and a tradeoff or reason to choose another direction.
+Before discussing individual sections, present a small set of directions tailored to the project, unless the user chose true surprise. For true surprise, develop one direction and carry it into the complete brief without another aesthetic choice round. For each direction, describe the intended impression and audience fit; typography character and hierarchy; palette roles and contrast; composition, density, spacing, and rhythm; imagery treatment; copy voice with realistic example phrasing; motion character or its absence; and a tradeoff or reason to choose another direction.
 
 Names must carry actionable specifics: "narrow text columns, expressive serif headlines, documentary photography, and restrained captions" gives substance to "editorial." Keep concrete font candidates, colors, and composition consistent with known constraints; do not offer variations that violate a supplied brand system.
 

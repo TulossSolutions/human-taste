@@ -9,7 +9,7 @@ Track the project and current stage: gathering facts, direction, sections, brief
 | Category | What to retain |
 | --- | --- |
 | User choices | Actual answer and scope; exact wording where it matters |
-| Delegated decisions | What the user delegated, any constraints, the agent's proposed choice and reason |
+| Delegated decisions | What the user delegated, any constraints, the agent's proposed choice and reason; for "Surprise me," the selected style bounds or true-surprise delegation of all remaining creative decisions |
 | Pending proposals | Alternatives shown, recommendation, and unanswered question |
 | Missing dependencies | Fact, copy, asset, right/permission, service, or credential; whether it blocks building or only completion/publication |
 | Rejected/superseded | Direction or pattern and reason; mark replacements |
@@ -35,7 +35,7 @@ Explain what the site offers, who it serves, the visitor's main need, and the pr
 
 ### Creative direction
 
-Name the chosen direction, describe its intended impression, and explain why it fits this audience and content. Identify choices made by the user and those delegated to the agent. Note meaningful tradeoffs and rejected patterns.
+Name the chosen direction, describe its intended impression, and explain why it fits this audience and content. Identify choices made by the user and those delegated to the agent. If "Surprise me" was used, retain its style bounds or explicit full delegation and explain the concrete proposal within them; a family label alone is insufficient. Note meaningful tradeoffs and rejected patterns.
 
 ### Design system and copy
 
