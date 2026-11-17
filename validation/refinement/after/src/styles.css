@@ -1,0 +1,342 @@
+:root {
+  --ink: #192b54;
+  --paper: #f4f1e8;
+  --accent: #d9ff65;
+  --rule: #192b5438;
+  --gutter: clamp(1.25rem, 4.2vw, 4rem);
+  color: var(--ink);
+  background: var(--paper);
+  font-family: Arial, sans-serif;
+  font-synthesis: none;
+  line-height: 1.55;
+  -webkit-text-size-adjust: 100%;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+button, input, textarea { font: inherit; }
+button, a, input, textarea { -webkit-tap-highlight-color: transparent; }
+a { color: inherit; }
+button { color: var(--ink); cursor: pointer; }
+
+:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 5px;
+}
+
+::selection { color: var(--ink); background: var(--accent); }
+
+.site-header,
+main,
+.site-footer {
+  width: calc(100% - var(--gutter) * 2);
+  max-width: 82.5rem;
+  margin-inline: auto;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  min-height: 6.5rem;
+  border-bottom: 1px solid var(--ink);
+}
+
+.wordmark {
+  font-size: 1.6875rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: .075em;
+  text-decoration: none;
+}
+
+.site-header nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: clamp(1.25rem, 3vw, 2.75rem);
+}
+
+.site-header nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  font-size: .875rem;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 6px;
+  text-decoration-color: transparent;
+}
+
+.site-header nav a:hover { text-decoration-color: currentColor; }
+
+.opening {
+  display: grid;
+  grid-template-columns: minmax(0, 3.3fr) minmax(11.875rem, 1fr);
+  align-items: end;
+  gap: clamp(2rem, 4vw, 4rem);
+  padding-block: clamp(4rem, 7.5vw, 7rem) clamp(4rem, 6.5vw, 6.25rem);
+}
+
+.opening h1 {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(3rem, 1.5rem + 4.25vw, 5.5rem);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -.055em;
+}
+
+.opening h1 span {
+  display: block;
+  margin-top: .08em;
+  font-size: .83em;
+  font-style: italic;
+  letter-spacing: -.05em;
+}
+
+.opening > p {
+  max-width: 26ch;
+  margin: 0 0 .5em;
+  padding-left: 1.25rem;
+  border-left: 1px solid var(--rule);
+  font-size: .9375rem;
+  line-height: 1.7;
+}
+
+section { scroll-margin-top: 2rem; }
+
+.collection-heading {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem 1.5rem;
+  padding-block: 1.125rem;
+  margin-bottom: clamp(2rem, 3.5vw, 3.5rem);
+  border-block: 1px solid var(--rule);
+}
+
+.collection-heading h2 {
+  margin: 0;
+  font-size: .8125rem;
+  font-weight: 400;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.collection-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .25rem;
+}
+
+.collection-filters button {
+  min-height: 2.75rem;
+  padding: .5625rem 1rem;
+  border: 1px solid transparent;
+  background: transparent;
+  font-size: .875rem;
+}
+
+.collection-filters button[aria-pressed='true'] {
+  border-color: var(--ink);
+  background: var(--accent);
+}
+
+.collection-filters button:hover { border-color: var(--ink); }
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: clamp(1rem, 2.5vw, 2.5rem);
+  row-gap: clamp(4.5rem, 8vw, 8rem);
+  align-items: start;
+}
+
+.product { min-width: 0; }
+.product:nth-child(1) { grid-column: 1 / span 7; }
+.product:nth-child(2) {
+  grid-column: 9 / -1;
+  margin-top: clamp(6rem, 13vw, 12.5rem);
+}
+.product:nth-child(3) { grid-column: 4 / span 7; }
+
+.product-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 6 / 7;
+  object-fit: contain;
+}
+
+.product-caption { padding-top: clamp(1.25rem, 2vw, 2rem); }
+
+.product-caption h3 {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(1.75rem, 1rem + 1.5vw, 2.375rem);
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -.035em;
+}
+
+.product-details {
+  margin: .625rem 0 0;
+  font-size: .8125rem;
+  line-height: 1.6;
+  letter-spacing: .01em;
+}
+
+.product-description {
+  max-width: 39ch;
+  margin: 1.0625rem 0 0;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.inquiry-button {
+  min-height: 2.75rem;
+  margin-top: 1.5rem;
+  padding: .625rem 0;
+  border: 0;
+  border-bottom: 1px solid var(--ink);
+  background: transparent;
+  font-size: .875rem;
+  text-align: left;
+}
+
+.inquiry-button:hover {
+  background: var(--accent);
+  box-shadow: 8px 0 var(--accent), -8px 0 var(--accent);
+}
+
+.studio {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  align-items: end;
+  gap: 3rem;
+  margin-top: clamp(6.5rem, 12vw, 11.25rem);
+  padding-block: clamp(3rem, 6vw, 5.5rem);
+  border-top: 1px solid var(--ink);
+}
+
+.studio h2 {
+  max-width: 12ch;
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(2.5rem, 1rem + 4.2vw, 4.75rem);
+  font-weight: 400;
+  line-height: 1.07;
+  letter-spacing: -.045em;
+}
+
+.studio p {
+  max-width: 32ch;
+  margin: 0 0 .25em;
+  font-size: 1.0625rem;
+  line-height: 1.7;
+}
+
+.site-footer {
+  padding-block: 1.5rem 2rem;
+  border-top: 1px solid var(--rule);
+  font-size: .75rem;
+  line-height: 1.7;
+}
+
+dialog {
+  width: min(32.5rem, calc(100% - 2.5rem));
+  max-height: calc(100% - 2.5rem);
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  overflow-y: auto;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  background: var(--paper);
+}
+
+dialog::backdrop { background: #192b5488; }
+
+dialog > button {
+  display: block;
+  min-height: 2.75rem;
+  margin-left: auto;
+  padding: .5rem 0;
+  border: 0;
+  border-bottom: 1px solid var(--ink);
+  background: transparent;
+}
+
+dialog h2 {
+  margin: 1.75rem 0 1rem;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 2.25rem;
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -.03em;
+}
+
+dialog p { font-size: .9375rem; }
+dialog label { display: block; margin-block: 1.5rem; font-size: .875rem; }
+
+dialog input,
+dialog textarea {
+  display: block;
+  width: 100%;
+  min-height: 2.75rem;
+  margin-top: .5rem;
+  padding: .75rem;
+  border: 1px solid var(--ink);
+  border-radius: 0;
+  color: var(--ink);
+  background: transparent;
+  font-size: 1rem;
+}
+
+dialog textarea { min-height: 7rem; resize: vertical; }
+
+dialog button[type='submit'] {
+  min-height: 2.75rem;
+  padding: .75rem 1.25rem;
+  border: 1px solid var(--ink);
+  background: var(--accent);
+}
+
+dialog [role='status'] {
+  margin: 1.5rem 0 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+}
+
+@media (max-width: 62.5rem) {
+  .opening { grid-template-columns: minmax(0, 1fr); gap: 2rem; }
+  .opening h1 { max-width: 14ch; }
+  .opening > p { max-width: 34ch; margin-left: auto; }
+  .product:nth-child(2) { margin-top: 6rem; }
+  .product-description { font-size: .9375rem; }
+}
+
+@media (max-width: 42.5rem) {
+  .site-header { min-height: 0; padding-block: 1.5rem 1.25rem; flex-wrap: wrap; gap: 1rem 1.75rem; }
+  .wordmark { font-size: 1.5rem; }
+  .site-header nav { gap: 0 1.5rem; }
+  .site-header nav a { font-size: .8125rem; }
+  .opening { padding-block: 3.25rem 3rem; gap: 1.75rem; }
+  .opening h1 { font-size: clamp(2.75rem, 1.5rem + 4vw, 3.5rem); letter-spacing: -.05em; }
+  .opening > p { max-width: 29ch; margin-left: 0; padding-left: 1rem; font-size: .875rem; }
+  .collection-heading { align-items: flex-start; gap: .75rem; padding-block: 1rem; margin-bottom: 1.75rem; }
+  .collection-heading h2 { width: 100%; }
+  .collection-filters { margin-left: 0; gap: .125rem; }
+  .collection-filters button { padding-inline: .75rem; font-size: .8125rem; }
+  .products { display: block; }
+  .product + .product { margin-top: 4rem; }
+  .product:nth-child(2) { margin-top: 4rem; }
+  .product-caption { padding-top: 1.25rem; }
+  .product-caption h3 { font-size: 2rem; }
+  .product-description { font-size: 1rem; }
+  .inquiry-button { margin-top: 1.125rem; }
+  .studio { grid-template-columns: minmax(0, 1fr); margin-top: 5rem; padding-block: 2.5rem 3rem; gap: 1.5rem; }
+  .studio h2 { font-size: 2.75rem; }
+  .studio p { max-width: 30ch; font-size: 1rem; }
+  .site-footer { padding-block: 1.375rem 1.75rem; }
+}

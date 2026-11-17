@@ -1,6 +1,6 @@
 ---
 name: human-taste
-description: Design and build distinctive websites through collaborative art direction, an adaptive creative interview, and an approved design brief. Use for website creation or substantial visual redesign when direction is open. For small fixes or an already approved design, preserve the existing direction and skip the full interview.
+description: Design, build, or visually refine distinctive websites through project-aware art direction, an adaptive creative interview, and an approved brief. Use for new websites, substantial visual redesign, or staged refinement of an existing screen. For small fixes or an already approved design, preserve the direction and skip the full interview.
 license: CC-BY-4.0
 metadata:
   short-description: Collaborative art direction for distinctive websites
@@ -16,11 +16,14 @@ Read available project instructions, existing content, brand assets, supplied re
 
 - **New site or substantial redesign with open direction:** use the interview below.
 - **Existing brand system:** treat its rules as constraints; explore the choices still open.
+- **Refine an existing screen or site:** preserve its purpose, approved direction, content, stack, and required functionality. Read [references/visual-refinement.md](references/visual-refinement.md) for baseline capture, a bounded refinement brief, ordered correction passes, and before/after review. Do not restart the full creative interview unless direction is genuinely open.
 - **Already approved brief:** resume from that brief, resolving only material gaps. Do not demand a new interview or approval of unchanged scope.
 - **Small fix:** make the requested change within the existing design. Do not turn a spacing correction, copy edit, or component fix into art direction.
 - **Brief or exploration only:** stop at the requested deliverable. Approval of a direction is not permission to build unless building is requested.
 
 Before brief approval, research and small optional specimens are appropriate; do not scaffold a site, implement sections, or build competing websites. The path is context → answers or explicit delegation → coherent direction → section decisions → reviewable brief → explicit approval → implementation → review. Pause at unresolved factual dependencies and unanswered approval requests.
+
+For refinement, use the compact refinement brief in the reference. Reuse an already approved brief or an explicit bounded correction request for work it covers; ordinary corrections within that scope do not need a new approval round. A new direction or material scope change still needs review and approval.
 
 ## Establish the technical starting point
 
@@ -93,6 +96,8 @@ Before discussing individual sections, present a small set of directions tailore
 Names must carry actionable specifics: "narrow text columns, expressive serif headlines, documentary photography, and restrained captions" gives substance to "editorial." Keep concrete font candidates, colors, and composition consistent with known constraints; do not offer variations that violate a supplied brand system.
 
 Use small type specimens, palette samples, or composition sketches when visual tools are available and useful. They are optional decision aids. Explain conflicts between preferences and propose a coherent resolution; do not silently combine incompatible directions. In delegated mode, propose a direction with reasons and preserve it for final review.
+
+When references would resolve a specific visual or interaction decision, use the reference-study procedure in [references/visual-refinement.md](references/visual-refinement.md). Study the relevant principle and behavior, record what will be adapted and why, and keep the result coherent with this project's content and direction. Public references, supplied assets, or already connected tools are sufficient; no paid inspiration service is required.
 
 Avoid habitual vague hero promises, decorative gradients, repeated card grids, unnecessary pill badges, arbitrary dashboards, excessive rounded containers, and identical scroll-reveal animations. These are review prompts, not universal bans: use a pattern when the user chooses it or a clear brief-based reason justifies it.
 
@@ -177,6 +182,8 @@ Compare the rendered implementation with the approved brief:
 These are qualitative review prompts, not a numerical "human taste score."
 
 Where tools permit, inspect rendered pages at representative small and large widths. Check relevant interactions, keyboard/focus behavior, overflow, loading, and reduced motion. Use automated checks where useful, while separating their results from visual judgment. Report unavailable tools and unverified areas honestly.
+
+When the result needs refinement, apply the ordered passes and stopping criteria in [references/visual-refinement.md](references/visual-refinement.md). Keep comparable baseline/checkpoint captures and a short issue → change → reason → verification record. Do not mechanically add visual effects or remove required actions to make a screenshot look simpler. In true-surprise mode, perform these passes internally without adding aesthetic question rounds.
 
 Correct deviations within scope; surface material brief changes for user review. Deliver a short account of what was built, how it reflects the approved direction, what was actually checked, and remaining dependencies. If the request ended at a brief, deliver that brief with its current approval state instead.
 

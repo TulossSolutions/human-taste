@@ -1,0 +1,200 @@
+{
+  "phase": "after",
+  "browser": "152.0.7977.83",
+  "conditions": {
+    "url": "http://127.0.0.1:8776",
+    "deviceScaleFactor": 1,
+    "viewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "content": "Same three supplied fictional products; all filter selected; inquiry closed; scroll at top."
+  },
+  "checks": [
+    {
+      "name": "Preserved BRAND.md",
+      "detail": "SHA-256 matches baseline",
+      "status": "passed"
+    },
+    {
+      "name": "Preserved index.html",
+      "detail": "SHA-256 matches baseline",
+      "status": "passed"
+    },
+    {
+      "name": "Preserved package-lock.json",
+      "detail": "SHA-256 matches baseline",
+      "status": "passed"
+    },
+    {
+      "name": "Preserved package.json",
+      "detail": "SHA-256 matches baseline",
+      "status": "passed"
+    },
+    {
+      "name": "Preserved public/arc.svg",
+      "detail": "SHA-256 matches baseline",
+      "status": "passed"
+    },
+    {
+      "name": "Preserved public/care.html",
+      "detail": "SHA-256 matches baseline",
+      "status": "passed"
+    },
+    {
+      "name": "Preserved public/drift.svg",
+      "detail": "SHA-256 matches baseline",
+      "status": "passed"
+    },
+    {
+      "name": "Preserved public/tide.svg",
+      "detail": "SHA-256 matches baseline",
+      "status": "passed"
+    },
+    {
+      "name": "Preserved src/App.jsx",
+      "detail": "SHA-256 matches baseline",
+      "status": "passed"
+    },
+    {
+      "name": "Preserved src/data.js",
+      "detail": "SHA-256 matches baseline",
+      "status": "passed"
+    },
+    {
+      "name": "Preserved src/main.jsx",
+      "detail": "SHA-256 matches baseline",
+      "status": "passed"
+    },
+    {
+      "name": "Preserved tests/catalog.test.js",
+      "detail": "SHA-256 matches baseline",
+      "status": "passed"
+    },
+    {
+      "name": "Preserved src/components/ProductDialog.jsx",
+      "detail": "SHA-256 matches baseline",
+      "status": "passed"
+    },
+    {
+      "name": "No horizontal overflow at 1440px",
+      "status": "passed"
+    },
+    {
+      "name": "No horizontal overflow at 768px",
+      "status": "passed"
+    },
+    {
+      "name": "No horizontal overflow at 390px",
+      "status": "passed"
+    },
+    {
+      "name": "No horizontal overflow at 320px",
+      "status": "passed"
+    },
+    {
+      "name": "Automated WCAG checks have zero violations",
+      "detail": "21 passing rules; 0 incomplete",
+      "status": "passed"
+    },
+    {
+      "name": "Initial keyboard focus is visible",
+      "status": "passed"
+    },
+    {
+      "name": "Collection filtering retains 3 / 2 / 1 results",
+      "status": "passed"
+    },
+    {
+      "name": "Inquiry validation and honest local success still work",
+      "status": "passed"
+    },
+    {
+      "name": "Dialog Escape, focus return, reset and explicit close still work",
+      "status": "passed"
+    },
+    {
+      "name": "Inquiry remains operable at mobile viewport",
+      "status": "passed"
+    },
+    {
+      "name": "Reduced-motion mode retains content",
+      "status": "passed"
+    },
+    {
+      "name": "Care route and return destination work",
+      "status": "passed"
+    },
+    {
+      "name": "No uncaught errors or failed application-resource responses tracked by Playwright",
+      "status": "passed"
+    },
+    {
+      "name": "Rendered main content is unchanged",
+      "status": "passed"
+    },
+    {
+      "name": "Display hierarchy strengthened",
+      "detail": "22px → 85.2px",
+      "status": "passed"
+    },
+    {
+      "name": "Page spacing restored at 768px while shared edges stay aligned",
+      "detail": "8px → 32.25px",
+      "status": "passed"
+    },
+    {
+      "name": "Image/caption grouping tightened",
+      "detail": "88px → 28.796875px",
+      "status": "passed"
+    }
+  ],
+  "widths": [
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "content": 1440,
+      "gutter": 60.484375,
+      "alignmentDifference": 0
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "content": 768,
+      "gutter": 32.25,
+      "alignmentDifference": 0
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "content": 390,
+      "gutter": 20,
+      "alignmentDifference": 0
+    },
+    {
+      "width": 320,
+      "viewport": 320,
+      "content": 320,
+      "gutter": 20,
+      "alignmentDifference": 0
+    }
+  ],
+  "metrics": {
+    "gutter": 60.484375,
+    "alignmentDifference": 0,
+    "headingSize": 85.2,
+    "captionGap": 28.796875,
+    "mainText": "Ceramic objects for everyday spaces Serein is a fictional ceramics studio. This site is an illustrative demo. COLLECTION All objects Vessels Lighting Drift vessel Matte stoneware / 24 × 16 cm A broad-shouldered vessel with a narrow opening and an unglazed foot. Ask about Drift vessel Tide bowl Glazed stoneware / 9 × 28 cm An open bowl with a low curved wall and a deep blue interior. Ask about Tide bowl Arc lamp Ceramic body / 38 × 22 cm A sculptural lamp study with a rounded ceramic body and an arched shade. Ask about Arc lamp Objects, considered slowly. A fictional study in material, proportion, and the spaces around objects."
+  },
+  "accessibility": {
+    "violations": [],
+    "incomplete": [],
+    "passingRules": 21
+  }
+}

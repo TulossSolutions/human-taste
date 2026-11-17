@@ -21,7 +21,7 @@ The repository contains the skill and its test examples. It is not a mandatory w
 
 ## Decide whether it fits your task
 
-Use Human Taste for a new website or substantial visual redesign when collaborative art direction would help. Choose guided decisions, detailed section-by-section collaboration, or agent-led exploration.
+Use Human Taste for a new website, substantial visual redesign, or staged refinement of an existing screen. Choose guided decisions, detailed section-by-section collaboration, or agent-led exploration.
 
 Bring an existing brand system or approved design if you have one. The agent preserves settled choices and asks only about meaningful gaps. A small fix stays a small fix; it does not trigger a complete interview.
 
@@ -95,6 +95,14 @@ To delegate creative details:
 
 Bring whatever you already have: purpose, audience, primary visitor action, content, references, brand assets, and practical constraints. The agent should read available project context rather than asking you to repeat it. Missing facts remain questions; they are not creative choices to invent.
 
+## Refine an existing screen
+
+> Use Human Taste to refine this screen. Keep its approved direction, content, technology, navigation, and working features. Capture desktop/mobile baselines, explain the important corrections, and show comparable before-and-after results.
+
+The agent works through observed issues in order: **content/clutter → composition, spacing and alignment → typography → imagery → interaction polish**. It changes only what needs correction, records each material change and its reason, and stops when the acceptance criteria are met. Required actions are preserved; an attractive screenshot alone does not prove that a design works.
+
+When a reference would help, the agent studies a relevant layout or interaction, explains the principle, and adapts it to your project. Supplied references, public examples, and already connected services can be used; no paid inspiration library is required. True surprise handles these aesthetic decisions internally. A broad refinement request receives a compact brief for approval, while corrections already covered by an approved brief or explicit bounded request do not restart the full interview.
+
 ## Shape the direction, then approve the brief
 
 1. **Establish the starting point.** Inspect the project and resolve missing purpose, content, audience, functionality, and technical constraints.
@@ -119,6 +127,8 @@ The existing application was a seeded React/Vite fixture. Tests used Chrome, not
 
 The [initial review](validation/REVIEW.md) retains structural/installer checks and seven manual scenario walkthroughs. Structural validation, observed conversations, browser checks, and aesthetic judgment are reported separately.
 
+The later [visual-refinement trial](validation/REFINEMENT-TEST.md) tests CSS-only corrections on a seeded existing screen. It includes comparable desktop/mobile before-and-after captures, the independent agent's correction record, **30 passing after-state checks**, and evidence that all 13 non-CSS baseline files remained unchanged. The original website-trial fixtures and results are preserved.
+
 ## Explore or adapt the skill
 
 | File or directory | What you will find |
@@ -126,6 +136,7 @@ The [initial review](validation/REVIEW.md) retains structural/installer checks a
 | [human-taste/SKILL.md](human-taste/SKILL.md) | Discovery metadata and the complete workflow |
 | [Section interview reference](human-taste/references/section-interview.md) | Conditional prompts and examples for page sections |
 | [Decision and brief reference](human-taste/references/decision-and-brief.md) | Decision record and approval brief |
+| [Visual refinement reference](human-taste/references/visual-refinement.md) | Baselines, reference study, correction passes, before/after review, and stopping criteria |
 | [Codex metadata](human-taste/agents/openai.yaml) | Display name and example invocation |
 | [Validation report](validation/LIVE-TESTS.md) | Executed checks, limitations, and reproduction instructions |
 | `validation/fixtures/`, `validation/browser/`, `validation/screenshots/` | Demo sources, browser test code/results, and actual captures |

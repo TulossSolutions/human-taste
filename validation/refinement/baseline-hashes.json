@@ -1,0 +1,16 @@
+{
+  "BRAND.md": "c56be7ee1269434978b690be2ac96529b0f85d82cc3a435a32239c9b864ea43b",
+  "index.html": "c305e10846375350e410eabd10d4b0c6fd9f8110c45df72283860e0e55a72384",
+  "package-lock.json": "072f78dca699568ceae133c26ce0d3ba020de89c0ead65e7ce28b2bea558797f",
+  "package.json": "a88eaa8d0efebbbf63ff5b4c520e0340781b2710f120555c108d1e9acf5b41f2",
+  "public/arc.svg": "cbffe7d3959f8911592a73112eaa166b33c381a62cb6e98a99f2ebc38fec2c35",
+  "public/care.html": "2a5309cbe05ca1ab9fdea5f3451ca32b1e80a984cfa067a41fb4ff3a3ab3c044",
+  "public/drift.svg": "ca4d6a5b42a3fef1a52f023450aa9cadff303bf3c6e470a6833c26fe80893806",
+  "public/tide.svg": "03837f97c0b6ea128cc15159aaf2d89bda917945c41b3827e726bffe0c4f8a60",
+  "src/App.jsx": "33b04b626cd505e345c582fbc707e097222460f0bd39e4d49be7c58c02c6626d",
+  "src/data.js": "96f6247c99d033bc8edf0aa717c0db0667fd885b6eb6da89c60720ce56766d5e",
+  "src/main.jsx": "1f72c3f64a2b8ddd7e76262255a6beb45e0d59e80012066ac92e73cdd81f38c1",
+  "src/styles.css": "2c45ce8ffe674279c2c2acfbe1cf5a8a0e830f426d12e6648413fb22fbd87984",
+  "tests/catalog.test.js": "349b38d4b0b06b39d3556d0e7c6f61abc5923899db5bf5ea738c5f1552383360",
+  "src/components/ProductDialog.jsx": "8fa8956bdfa04061fe81de83a2fa1a1816b1e248068c003567c0a0f3a82f7af0"
+}

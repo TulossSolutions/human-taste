@@ -15,6 +15,8 @@ Track the project and current stage: gathering facts, direction, sections, brief
 | Rejected/superseded | Direction or pattern and reason; mark replacements |
 | Structure | Pages and intended section order, with purpose |
 | Technical starting point | New or existing project; inspected evidence, retained/selected stack and rationale, existing behaviors to preserve, commands and constraints |
+| Refinement evidence | Baseline/capture conditions; observed issue, change, reason, verification and retained/reverted/pending status; accepted/rejected refinements and scoped rationale |
+| Reference use | Actual source/section, observed principle or behavior, proposed adaptation, limitations, and any asset/code reuse rights |
 | Approval | Brief identifier and actual user go-ahead, or "awaiting explicit approval" |
 
 Do not upgrade a recommendation to a user choice. A submitted "Choose for me" answer can close an aesthetic question; record both that delegation and the resulting agent decision. A pending question stays pending even if a tool reports success or a timer expires.
@@ -72,6 +74,8 @@ Use observable criteria tied to the direction and scope. Examples to adapt, not 
 - Reduced motion preserves content and completion of the same tasks.
 
 Record patterns to avoid and what will be checked through automation, interaction testing, or visual inspection. Do not substitute a taste score for judgment.
+
+For refinement, use the compact brief in [visual-refinement.md](visual-refinement.md) instead of repeating a new-site interview: record the screen/task, fixed direction/content/functionality, observed issues, proposed passes and reference use, and acceptance criteria. Preserve before/after conditions and distinguish baseline failures from regressions. Reuse existing approval only for the scope it actually covers.
 
 ## Approval handoff
 

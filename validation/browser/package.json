@@ -1,1 +1,1 @@
-{"name":"human-taste-browser-validation","private":true,"type":"module","scripts":{"test":"node browser-checks.mjs"},"dependencies":{"playwright-core":"latest","axe-core":"latest"}}
+{"name":"human-taste-browser-validation","private":true,"type":"module","scripts":{"test":"node browser-checks.mjs","test:refinement":"node refinement-checks.mjs"},"dependencies":{"playwright-core":"latest","axe-core":"latest"}}
